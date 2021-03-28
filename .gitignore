@@ -39,10 +39,6 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# Compiled CSS
-*.css
-*.map
-
 # Build directories
 www
 build
