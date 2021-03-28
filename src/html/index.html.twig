@@ -1,0 +1,81 @@
+{% extends "layouts/default.twig" %}
+{% set title = "Home" %}
+
+{% block masthead %}
+<section class="relative pt-48 pb-16">
+	<figure class="absolute inset-0 z-10 img-cover">
+		<img
+sizes="(max-width: 2000px) 100vw, 2000px"
+srcset="
+img/home-1_640.jpg 640w,
+img/home-1_980.jpg 980w,
+img/home-1_1200.jpg 1200w,
+img/home-1_1600.jpg 1600w,
+img/home-1.jpg 2000w"
+src="img/home-1.jpg"
+alt="" loading="lazy" height="1333" width="2000">
+	</figure>
+	<div class="relative z-20 px-6 py-8 text-white">
+		<div class="container mx-auto">
+			<h2 class="font-sans text-2xl uppercase lg:text-4xl">We love numbers so you don't have to.</h2>
+			<p class="pt-3 font-sans"><a href="/services" class="text-white hover:text-primary-light link-w-arrow link-w-arrow--alt">Learn more about what we do</a></p>
+		</div>
+	</div>
+</section>
+
+{% endblock %}
+
+{% block content %}
+<article class="px-6 py-24">
+	<div class="container mx-auto">
+		<h2 class="text-lg uppercase lg:text-2xl">Working with Santha Accounting</h2>
+		<p class="mt-4">As a business owner, you have got a lot on the go, and sometimes the day-to-day accounting tasks can fall to the side - this is, until tax reporting or financing deadlines draw near. With Santha Accounting, our virtual accounting department works with you so you can breathe easy knowing that your business finances are being properly tracked and reported. We will work with you to provide accounting systems and services tailored to your needs, using the latest technology to streamline the process. Our goal is to provide you with the information you need to generate positive net growth and greater cost savings, giving you more time to do what you do best – running your business.</p>
+		<p class="mt-12 font-sans uppercase lg:text-center">
+			<a href="/services" class="link-w-arrow">Learn more about what we can do for you</a>
+		</p>
+	</div>
+</article>
+<section class="px-6 py-24 bg-grey-100">
+	<div class="container grid grid-cols-3 gap-12 mx-auto">
+		<h2 class="col-span-3 text-lg uppercase lg:text-2xl">What we do</h2>
+		<div class="col-span-3 lg:col-span-1">
+			<h3 class="text-base lg:text-xl">Assess</h3>
+			<p>We’ll connect with you to learn about your business’ needs and where the gaps are.</p>
+		</div>
+		<div class="col-span-3 lg:col-span-1">
+			<h3 class="text-base lg:text-xl">Analyze</h3>
+			<p>We’ll look at your current accounting systems and come up with a plan that uses technology and cloud-based accounting tools to streamline the entire process.</p>
+		</div>
+		<div class="col-span-3 lg:col-span-1">
+			<h3 class="text-base lg:text-xl">Implement</h3>
+			<p>We’ll put the systems in place and show you how they work. Our goal: a pain-free way for you to stay on top of your bottom line.</p>
+		</div>
+		<p class="col-span-3 font-sans uppercase lg:col-span-2 lg:col-start-2"><a href="/services" class="link-w-arrow">More about our services</a></p>
+	</div>
+</section>
+<section class="px-6 py-24">
+	<div class="container mx-auto md:grid md:grid-cols-12 md:gap-12">
+		<h2 class="text-lg uppercase md:col-span-12 lg:col-span-3 lg:text-2xl lg--border--right">Our team</h2>
+		<div class="relative px-12 py-8 md:py-0 md:px-2 md:col-span-6 lg:col-span-3 lg:col-start-5">
+			<img src="img/brent.jpg" alt="Brent Santha" loading="lazy" height="800" width="800" class="rounded-full bordered-img border-grey-300">
+			<div class="mt-4 link-w-arrow">
+				<h3 class="text-base lg:text-xl"><a href="/about#brent" class="link-expand text-grey-900">Brent Santha</a></h3>
+				<div>CPA, CA</div>
+			</div>
+		</div>
+		<div class="relative px-12 py-8 md:py-0 md:px-2 md:col-span-6 lg:col-span-3 lg:col-start-9">
+			<img src="img/leanne.jpg" alt="Leanne Santha" loading="lazy" height="800" width="800" class="rounded-full bordered-img border-grey-300">
+			<div class="mt-4 link-w-arrow">
+				<h3 class="text-base lg:text-xl"><a href="/about#leanne" class="link-expand text-grey-900">Leanne Santha</a></h3>
+				<div>CPA, CA</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}
+
+{% block custom_css %}
+{% endblock %}
+
+{% block custom_javascript %}
+{% endblock %}

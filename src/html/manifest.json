@@ -1,0 +1,11 @@
+{
+    "name": "Santha Accounting, Chartered Professional Accountants",
+    "short_name": "Santha Accounting",
+    "icons": [{
+        "src": "google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "fullscreen"
+}
