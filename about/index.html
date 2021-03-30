@@ -1,5 +1,5 @@
 
-
+			
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -12,9 +12,9 @@
 <link rel="mask-icon" href="/mask-icon.svg" color="#5bbad5">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="stylesheet" href="/css/styles.min.css">
+<link rel="stylesheet" href="/css/styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 	</head>
 
 <body class="font-serif">
@@ -28,11 +28,11 @@
 			</svg>
 		</a>
 	</h1>
-	<nav class="self-center hidden md:block">
+	<nav class="self-center hidden text-xs md:block">
 		<ul class="flex font-sans uppercase">
 			<li><a href="/" class="px-4 text-white hover:text-primary-light">Home</a></li>
-			<li><a href="/services/" class="px-4 text-white hover:text-primary-light">Services</a></li>
-			<li><a href="/about/" class="pl-4 text-white hover:text-primary-light">About</a></li>
+			<li><a href="/services" class="px-4 text-white hover:text-primary-light">Services</a></li>
+			<li><a href="/about" class="pl-4 font-bold text-white hover:text-primary-light">About</a></li>
 		</ul>
 	</nav>
 	<Burger classes="md:hidden"></Burger>
@@ -50,53 +50,46 @@ srcset="
 src="/img/about-1.jpg"
 alt="" loading="lazy" height="1333" width="2000">
 </figure>
-<div class="relative z-20 px-6 py-8 text-white ">
+<div class="relative z-20 px-6 py-8">
   <div class="container mx-auto">
-    <h2 class="font-sans text-2xl uppercase lg:text-4xl">About Santha Accounting</h2>
+    <h2 class="font-sans text-2xl text-white uppercase lg:text-4xl">About Santha Accounting</h2>
   </div>
 </div>
 </section>
 
 		<main>
-			<article class="px-6 py-24">
-  <div class="container mx-auto">
-    <h2 class="text-lg uppercase lg:text-2xl">Our team</h2>
-    <p class="mt-4 text-lg lg:text-2xl">Who says working with your spouse has to be hard... Leanne and Brent met at the CA accounting firm they articled with over 20 years ago. After making a commitment to each other, they left the accounting firm to gain experience in industry and broaden their knowledge. Over the next 20 years they expanded their family while working hard to become the well-rounded, skilled professionals they are today. Wanting to use their expertise in new endeavours, they made the decision in 2018 to get back into public practice to assist small business owners in achieving their financial and strategic goals. Working closely with owners and managers while helping to guide them on their path to success is the most rewarding part of the job.</p>
-    <h3 id="brent" class="mt-12">Brent Santha, CPA, CA</h3>
-    <p class="">Brent is a CPA, CA with over 25 years of experience in public practice and the manufacturing industry. He has held several senior financial roles and has gained much of his experience working with both U.S. and Canadian private and multi-national public companies. Brent is a business strategy and finance consultant that supports entrepreneurial and growing companies with hands on guidance for their accounting, finance, tax, insurance, employee benefits, business processes, operations, and financial modeling needs. His background includes strategic management, full cycle accounting, acquisitions, finance, and investor relations.</p>
-    <h3 id="leanne" class="mt-12">Leanne Santha, CPA, CA</h3>
-    <p class="">Leanne is a CPA, CA with over 24 years of experience in public practice, construction industry, private banking, and registered charities. She has extensive knowledge of full cycle accounting, general bookkeeping, payroll, corporate and personal tax returns, and year-end financial reporting.  She has gained her experience working directly with owners and mangers to set up solutions that work for them and provide the information needed to move their companies forward.</p>
-  </div>
-</article>
-		</main>
-		<section class="px-6 py-16 font-sans bg-primary">
-	<form name="contact" netlify class="max-w-2xl mx-auto text-white">
-		<h2 class="text-lg uppercase lg:text-2xl">Contact us</h2>
-		<label class="block pt-4 lg:flex lg:items-center">
-			<span class="block lg:w-1/6 lg:pr-12">Name</span>
-			<input type="text" name="name" class="w-full rounded-none border-primary focus:border-primary-dark focus:ring focus:ring-border-primary-light focus:ring-opacity-25 lg:w-5/6 text-black" placeholder="Jane Doe">
-		</label>
-		<label class="block pt-4 lg:flex lg:items-center">
-			<span class="block lg:w-1/6 lg:pr-12">Email</span>
-			<input type="text" name="email" class="w-full rounded-none border-primary focus:border-primary-dark focus:ring focus:ring-border-primary-light focus:ring-opacity-25 lg:w-5/6 text-black" placeholder="jane.doe@mail.com">
-		</label>
-		<p class="mt-6 text-right">
-			<button type="submit" class="px-6 py-2 text-sm leading-none text-white uppercase bg-transparent border-2 border-white rounded-2xl hover:bg-primary-dark">Submit</button>
+  <article class="px-6 py-24">
+    <div class="container mx-auto">
+      <h2 class="text-lg uppercase lg:text-2xl">Our team</h2>
+      <p class="mt-4 text-lg lg:text-2xl">Who says working with your spouse has to be hard... Leanne and Brent met at the CA accounting firm they articled with over 20 years ago. After making a commitment to each other, they left the accounting firm to gain experience in industry and broaden their knowledge. Over the next 20 years they expanded their family while working hard to become the well-rounded, skilled professionals they are today. Wanting to use their expertise in new endeavours, they made the decision in 2018 to get back into public practice to assist small business owners in achieving their financial and strategic goals. Working closely with owners and managers while helping to guide them on their path to success is the most rewarding part of the job.</p>
+      <h3 id="brent" class="mt-12">Brent Santha, <span class="text-xs lg:text-sm">CPA, CA</span></h3>
+      <p class="">Brent is a CPA, CA with over 25 years of experience in public practice and the manufacturing industry. He has held several senior financial roles and has gained much of his experience working with both U.S. and Canadian private and multi-national public companies. Brent is a business strategy and finance consultant that supports entrepreneurial and growing companies with hands on guidance for their accounting, finance, tax, insurance, employee benefits, business processes, operations, and financial modeling needs. His background includes strategic management, full cycle accounting, acquisitions, finance, and investor relations.</p>
+      <h3 id="leanne" class="mt-12">Leanne Santha, <span class="text-xs lg:text-sm">CPA, CA</span></h3>
+      <p class="">Leanne is a CPA, CA with over 24 years of experience in public practice, construction industry, private banking, and registered charities. She has extensive knowledge of full cycle accounting, general bookkeeping, payroll, corporate and personal tax returns, and year-end financial reporting.  She has gained her experience working directly with owners and mangers to set up solutions that work for them and provide the information needed to move their companies forward.</p>
+    </div>
+  </article>
+</main>
+<section class="px-6 py-16 bg-primary">
+	<div class="container mx-auto text-white">
+		<h2 class="text-lg text-white uppercase lg:text-2xl">We'd Love to Hear from You</h2>
+		<p class="mt-6 ">
+			For more information on our services or to book an appointment please contact us at:
 		</p>
-	</form>
+		<p class="mt-6 font-sans">Contact info: <a href="tel:6045555555" class="pr-2 text-white hover:text-primary-light">604.555.5555</a> | <a href="mailto:info@santhaaccounting.com&subject=Website%20Inquiry" class="pl-2 text-white hover:text-primary-light">info@santhaaccounting.com</a></p>
+	</div>
 </section>
 <footer class="px-6 py-12 font-sans text-center text-white uppercase bg-grey-700">
 	<div class="container mx-auto">
-		<p>Contact info: <a href="tel:6045555555" class="pr-2 text-white hover:text-primary-light">604.555.5555</a> | <a href="mailto:info@santhaaccounting.com" class="pl-2 text-white hover:text-primary-light">info@santhaaccounting.com</a></p>
+
 	</div>
 </footer>
-		<sidebar>
+<sidebar>
   <p class="text-right"><Burger classes="mb-6 text-center border border-translucent text-white h-12 w-12"></Burger></p>
   <nav class="">
-    <ul class="font-sans text-lg uppercase lg:text-2xl">
-      <li><a href="/" class="py-3 text-white hover:text-primary-light">Home</a></li>
-      <li><a href="/services/" class="py-3 text-white hover:text-primary-light">Services</a></li>
-      <li><a href="/about/" class="py-3 text-white hover:text-primary-light">About</a></li>
+    <ul class="font-sans text-lg text-center uppercase lg:text-2xl">
+      <li><a href="/" class="block py-3 text-white hover:text-primary-light">Home</a></li>
+      <li><a href="/services" class="block py-3 text-white hover:text-primary-light">Services</a></li>
+      <li><a href="/about" class="block py-3 font-bold text-white hover:text-primary-light">About</a></li>
     </ul>
   </nav>
 </sidebar>
@@ -109,7 +102,7 @@ alt="" loading="lazy" height="1333" width="2000">
 		<path stroke="currentColor" stroke-miterlimit="10" stroke-width=".5" d="M0 30.509h243.349"></path>
 	</symbol>
 </svg>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://unpkg.com/vue"></script>
 <script>
 Vue.config.productionTip = false;
 

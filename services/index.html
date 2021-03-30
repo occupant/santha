@@ -1,5 +1,5 @@
 
-
+			
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -12,10 +12,9 @@
 <link rel="mask-icon" href="/mask-icon.svg" color="#5bbad5">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="stylesheet" href="/css/styles.min.css">
+<link rel="stylesheet" href="/css/styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 	</head>
 
 <body class="font-serif">
@@ -29,11 +28,11 @@
 			</svg>
 		</a>
 	</h1>
-	<nav class="self-center hidden md:block">
+	<nav class="self-center hidden text-xs md:block">
 		<ul class="flex font-sans uppercase">
 			<li><a href="/" class="px-4 text-white hover:text-primary-light">Home</a></li>
-			<li><a href="/services/" class="px-4 text-white hover:text-primary-light">Services</a></li>
-			<li><a href="/about/" class="pl-4 text-white hover:text-primary-light">About</a></li>
+			<li><a href="/services" class="px-4 font-bold text-white hover:text-primary-light">Services</a></li>
+			<li><a href="/about" class="pl-4 text-white hover:text-primary-light">About</a></li>
 		</ul>
 	</nav>
 	<Burger classes="md:hidden"></Burger>
@@ -51,87 +50,80 @@ srcset="
 src="/img/services-1.jpg"
 alt="" loading="lazy" height="1379" width="2000">
 </figure>
-<div class="relative z-20 px-6 py-8 text-white">
+<div class="relative z-20 px-6 py-8">
   <div class="container mx-auto">
-    <h2 class="font-sans text-2xl uppercase lg:text-4xl">Our Services</h2>
+    <h2 class="font-sans text-2xl text-white uppercase lg:text-4xl">Our Services</h2>
   </div>
 </div>
 </section>
 
 		<main>
-			<article class="px-6 py-24">
-  <div class="container mx-auto">
-    <h2 class="text-lg uppercase lg:text-2xl">Services we offer</h2>
-    <p class="mt-4 text-lg lg:text-2xl">Whether you’re a start-up solopreneur or an established mid-sized company, we’ll work with you to determine your needs. We can work on an hourly basis or determine a fixed monthly price.</p>
-    <ul class="mt-6 md:grid md:grid-cols-2 md:mx-16 md:gap-x-12 md:gap-y-2 bullets">
-      <li>Business start up</li>
-      <li>Bookkeeping</li>
-      <li>Staff accountant</li>
-      <li>Controller or CFO on the go</li>
-      <li>Payroll</li>
-      <li>Year-end Compilation engagement</li>
-      <li>Taxes: both personal and corporate</li>
-      <li>Registered Charity returns</li>
-      <li>Monthly, quarterly, or annual government filings for GST, PST and WorkSafe BC</li>
-      <li>Statement of Contract Payments</li>
-    </ul>
-    <h3 class="mt-12">Bookkeeping</h3>
-    <p>Once we determine your needs, we will carry out such bookkeeping necessary to maintain your accounting records.  This will include general bookkeeping within QuickBooks Online.  We can help you with customer invoices, entering and paying bills, payroll, and filing of GST / PST / WCB as required.  We can produce monthly or quarterly internal financials as required.</p>
-    <h3 class="mt-12">Controller or CFO to go</h3>
-    <p>If you’re ready to take it up a notch, we can provide the financial oversight and expertise that will add to your business’ success. Whatever your goals are, we can help you reach them.</p>
-    <h3 class="mt-12">Compilations</h3>
-    <p>When you need more than just your internal financial statements, we can provide compilation services to finalize your year-end records.</p>
-    <h3 class="mt-12">Compilations</h3>
-    <ul class="md:mt-2 md:grid md:grid-cols-2 md:mx-16 md:gap-x-12 md:gap-y-2 bullets">
-      <li>T1 Personal general return</li>
-      <li>T2 Corporate tax returns</li>
-      <li>T3010 Registered Charity returns</li>
-      <li>T5018 Statement of Contract Payments</li>
-      <li>GST monthly, quarterly, or annual filings</li>
-      <li>PST monthly filings</li>
-      <li>T4 & T5 annual preparation and filing</li>
-    </ul>
-    <h3 class="mt-12">Technology</h3>
-    <p>Say “so long” to that box of receipts! We use online accounting software and cloud-based apps that simplify data collection and give you real-time access to your financials.</p>
-    <ul class="mt-6 md:grid md:grid-cols-2 md:mx-16 md:gap-x-12 md:gap-y-2 bullets">
-      <li>QuickBooks Online</li>
-      <li>Reciept Bank</li>
-      <li>Payworks</li>
-    </ul>
+  <article class="px-6 py-24">
+    <div class="container mx-auto">
+      <h2 class="text-lg uppercase lg:text-2xl">Services we offer</h2>
+      <p class="mt-4 text-lg lg:text-2xl">Whether you’re a start-up solopreneur or an established mid-sized company, we’ll work with you to determine your needs. We can work on an hourly basis or determine a fixed monthly price.</p>
+      <ul class="mt-6 md:grid md:grid-cols-2 md:mx-16 md:gap-x-12 md:gap-y-2 bullets">
+        <li>Business start up</li>
+        <li>Bookkeeping</li>
+        <li>Staff accountant</li>
+        <li>Controller or CFO on the go</li>
+        <li>Payroll</li>
+        <li>Year-end Compilation engagement</li>
+        <li>Taxes: both personal and corporate</li>
+        <li>Registered Charity returns</li>
+        <li>Monthly, quarterly, or annual government filings for GST, PST and WorkSafe BC</li>
+        <li>Statement of Contract Payments</li>
+      </ul>
+      <h3 class="mt-12">Bookkeeping</h3>
+      <p>Once we determine your needs, we will carry out such bookkeeping necessary to maintain your accounting records.  This will include general bookkeeping within QuickBooks Online.  We can help you with customer invoices, entering and paying bills, payroll, and filing of GST / PST / WCB as required.  We can produce monthly or quarterly internal financials as required.</p>
+      <h3 class="mt-12">Controller or CFO to go</h3>
+      <p>If you’re ready to take it up a notch, we can provide the financial oversight and expertise that will add to your business’ success. Whatever your goals are, we can help you reach them.</p>
+      <h3 class="mt-12">Compilations</h3>
+      <p>When you need more than just your internal financial statements, we can provide compilation services to finalize your year-end records.</p>
+      <h3 class="mt-12">Compilations</h3>
+      <ul class="md:mt-2 md:grid md:grid-cols-2 md:mx-16 md:gap-x-12 md:gap-y-2 bullets">
+        <li>T1 Personal general return</li>
+        <li>T2 Corporate tax returns</li>
+        <li>T3010 Registered Charity returns</li>
+        <li>T5018 Statement of Contract Payments</li>
+        <li>GST monthly, quarterly, or annual filings</li>
+        <li>PST monthly filings</li>
+        <li>T4 & T5 annual preparation and filing</li>
+      </ul>
+      <h3 class="mt-12">Technology</h3>
+      <p>Say “so long” to that box of receipts! We use online accounting software and cloud-based apps that simplify data collection and give you real-time access to your financials.</p>
+      <ul class="mt-6 md:grid md:grid-cols-2 md:mx-16 md:gap-x-12 md:gap-y-2 bullets">
+        <li>QuickBooks Online</li>
+        <li>Reciept Bank</li>
+        <li>Payworks</li>
+      </ul>
 
-    <h3 class="mt-12">Additional Services</h3>
-    <p>Only need help in certain key areas? We’ve got you covered!</p>
-  </div>
-</article>
-		</main>
-		<section class="px-6 py-16 font-sans bg-primary">
-	<form name="contact" netlify class="max-w-2xl mx-auto text-white">
-		<h2 class="text-lg uppercase lg:text-2xl">Contact us</h2>
-		<label class="block pt-4 lg:flex lg:items-center">
-			<span class="block lg:w-1/6 lg:pr-12">Name</span>
-			<input type="text" name="name" class="w-full rounded-none border-primary focus:border-primary-dark focus:ring focus:ring-border-primary-light focus:ring-opacity-25 lg:w-5/6 text-black" placeholder="Jane Doe">
-		</label>
-		<label class="block pt-4 lg:flex lg:items-center">
-			<span class="block lg:w-1/6 lg:pr-12">Email</span>
-			<input type="text" name="email" class="w-full rounded-none border-primary focus:border-primary-dark focus:ring focus:ring-border-primary-light focus:ring-opacity-25 lg:w-5/6t ext-black" placeholder="jane.doe@mail.com">
-		</label>
-		<p class="mt-6 text-right">
-			<button type="submit" class="px-6 py-2 text-sm leading-none text-white uppercase bg-transparent border-2 border-white rounded-2xl hover:bg-primary-dark">Submit</button>
+      <h3 class="mt-12">Additional Services</h3>
+      <p>Only need help in certain key areas? We’ve got you covered!</p>
+    </div>
+  </article>
+</main>
+<section class="px-6 py-16 bg-primary">
+	<div class="container mx-auto text-white">
+		<h2 class="text-lg text-white uppercase lg:text-2xl">We'd Love to Hear from You</h2>
+		<p class="mt-6 ">
+			For more information on our services or to book an appointment please contact us at:
 		</p>
-	</form>
+		<p class="mt-6 font-sans">Contact info: <a href="tel:6045555555" class="pr-2 text-white hover:text-primary-light">604.555.5555</a> | <a href="mailto:info@santhaaccounting.com&subject=Website%20Inquiry" class="pl-2 text-white hover:text-primary-light">info@santhaaccounting.com</a></p>
+	</div>
 </section>
 <footer class="px-6 py-12 font-sans text-center text-white uppercase bg-grey-700">
 	<div class="container mx-auto">
-		<p>Contact info: <a href="tel:6045555555" class="pr-2 text-white hover:text-primary-light">604.555.5555</a> | <a href="mailto:info@santhaaccounting.com" class="pl-2 text-white hover:text-primary-light">info@santhaaccounting.com</a></p>
+
 	</div>
 </footer>
-		<sidebar>
+<sidebar>
   <p class="text-right"><Burger classes="mb-6 text-center border border-translucent text-white h-12 w-12"></Burger></p>
   <nav class="">
-    <ul class="font-sans text-lg uppercase lg:text-2xl">
-      <li><a href="/" class="py-3 text-white hover:text-primary-light">Home</a></li>
-      <li><a href="/services/" class="py-3 text-white hover:text-primary-light">Services</a></li>
-      <li><a href="/about/" class="py-3 text-white hover:text-primary-light">About</a></li>
+    <ul class="font-sans text-lg text-center uppercase lg:text-2xl">
+      <li><a href="/" class="block py-3 text-white hover:text-primary-light">Home</a></li>
+      <li><a href="/services" class="block py-3 font-bold text-white hover:text-primary-light">Services</a></li>
+      <li><a href="/about" class="block py-3 font-bold text-white hover:text-primary-light">About</a></li>
     </ul>
   </nav>
 </sidebar>
@@ -144,7 +136,7 @@ alt="" loading="lazy" height="1379" width="2000">
 		<path stroke="currentColor" stroke-miterlimit="10" stroke-width=".5" d="M0 30.509h243.349"></path>
 	</symbol>
 </svg>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://unpkg.com/vue"></script>
 <script>
 Vue.config.productionTip = false;
 

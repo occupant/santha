@@ -1,5 +1,5 @@
 
-
+			
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -12,9 +12,9 @@
 <link rel="mask-icon" href="/mask-icon.svg" color="#5bbad5">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/manifest.json">
-<link rel="stylesheet" href="/css/styles.min.css">
+<link rel="stylesheet" href="/css/styles.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,700;1,500&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
 	</head>
 
 <body class="font-serif">
@@ -28,11 +28,11 @@
 			</svg>
 		</a>
 	</h1>
-	<nav class="self-center hidden md:block">
+	<nav class="self-center hidden text-xs md:block">
 		<ul class="flex font-sans uppercase">
-			<li><a href="/" class="px-4 text-white hover:text-primary-light">Home</a></li>
-			<li><a href="/services/" class="px-4 text-white hover:text-primary-light">Services</a></li>
-			<li><a href="/about/" class="pl-4 text-white hover:text-primary-light">About</a></li>
+			<li><a href="/" class="px-4 font-bold text-white hover:text-primary-light">Home</a></li>
+			<li><a href="/services" class="px-4 text-white hover:text-primary-light">Services</a></li>
+			<li><a href="/about" class="pl-4 text-white hover:text-primary-light">About</a></li>
 		</ul>
 	</nav>
 	<Burger classes="md:hidden"></Burger>
@@ -50,90 +50,83 @@ srcset="
 src="/img/home-1.jpg"
 alt="" loading="lazy" height="1333" width="2000">
 	</figure>
-	<div class="relative z-20 px-6 py-8 text-white">
+	<div class="relative z-20 px-6 py-8">
 		<div class="container mx-auto">
-			<h2 class="font-sans text-2xl uppercase lg:text-4xl">We love numbers so you don't have to.</h2>
+			<h2 class="font-sans text-2xl text-white uppercase lg:text-4xl">We love numbers so you don't have to.</h2>
 			<p class="pt-3 font-sans"><a href="/services" class="text-white hover:text-primary-light link-w-arrow link-w-arrow--alt">Learn more about what we do</a></p>
 		</div>
 	</div>
 </section>
 
 		<main>
-			<article class="px-6 py-24">
-	<div class="container mx-auto">
-		<h2 class="text-lg uppercase lg:text-2xl">Working with Santha Accounting</h2>
-		<p class="mt-4">As a business owner, you have got a lot on the go, and sometimes the day-to-day accounting tasks can fall to the side - this is, until tax reporting or financing deadlines draw near. With Santha Accounting, our virtual accounting department works with you so you can breathe easy knowing that your business finances are being properly tracked and reported. We will work with you to provide accounting systems and services tailored to your needs, using the latest technology to streamline the process. Our goal is to provide you with the information you need to generate positive net growth and greater cost savings, giving you more time to do what you do best – running your business.</p>
-		<p class="mt-12 font-sans uppercase lg:text-center">
-			<a href="/services" class="link-w-arrow">Learn more about what we can do for you</a>
-		</p>
-	</div>
-</article>
-<section class="px-6 py-24 bg-grey-100">
-	<div class="container grid grid-cols-3 gap-12 mx-auto">
-		<h2 class="col-span-3 text-lg uppercase lg:text-2xl">What we do</h2>
-		<div class="col-span-3 lg:col-span-1">
-			<h3 class="text-base lg:text-xl">Assess</h3>
-			<p>We’ll connect with you to learn about your business’ needs and where the gaps are.</p>
+	<article class="px-6 py-24">
+		<div class="container mx-auto">
+			<h2 class="text-lg uppercase lg:text-2xl">Working with Santha Accounting</h2>
+			<p class="mt-4">As a business owner, you have got a lot on the go, and sometimes the day-to-day accounting tasks can fall to the side - this is, until tax reporting or financing deadlines draw near. With Santha Accounting, our virtual accounting department works with you so you can breathe easy knowing that your business finances are being properly tracked and reported. We will work with you to provide accounting systems and services tailored to your needs, using the latest technology to streamline the process. Our goal is to provide you with the information you need to generate positive net growth and greater cost savings, giving you more time to do what you do best – running your business.</p>
+			<p class="mt-6 font-sans text-sm uppercase lg:text-center lg:text-base">
+				<a href="/services" class="link-w-arrow">Learn more about what we can do for you</a>
+			</p>
 		</div>
-		<div class="col-span-3 lg:col-span-1">
-			<h3 class="text-base lg:text-xl">Analyze</h3>
-			<p>We’ll look at your current accounting systems and come up with a plan that uses technology and cloud-based accounting tools to streamline the entire process.</p>
+	</article>
+	<section class="px-6 py-24 bg-grey-100">
+		<div class="container grid grid-cols-3 mx-auto gap-x-12 gap-y-6">
+			<h2 class="col-span-3 text-lg uppercase lg:text-2xl">What we do</h2>
+			<div class="col-span-3 lg:col-span-1">
+				<h3 class="text-sm lg:text-lg">Assess</h3>
+				<p>We’ll connect with you to learn about your business’ needs and where the gaps are.</p>
+			</div>
+			<div class="col-span-3 lg:col-span-1">
+				<h3 class="text-sm lg:text-lg">Analyze</h3>
+				<p>We’ll look at your current accounting systems and come up with a plan that uses technology and cloud-based accounting tools to streamline the entire process.</p>
+			</div>
+			<div class="col-span-3 lg:col-span-1">
+				<h3 class="text-sm lg:text-lg">Implement</h3>
+				<p>We’ll put the systems in place and show you how they work. Our goal: a pain-free way for you to stay on top of your bottom line.</p>
+			</div>
+			<p class="col-span-3 font-sans text-sm uppercase lg:text-base lg:col-span-2 lg:col-start-2"><a href="/services" class="link-w-arrow">More about our services</a></p>
 		</div>
-		<div class="col-span-3 lg:col-span-1">
-			<h3 class="text-base lg:text-xl">Implement</h3>
-			<p>We’ll put the systems in place and show you how they work. Our goal: a pain-free way for you to stay on top of your bottom line.</p>
-		</div>
-		<p class="col-span-3 font-sans uppercase lg:col-span-2 lg:col-start-2"><a href="/services" class="link-w-arrow">More about our services</a></p>
-	</div>
-</section>
-<section class="px-6 py-24">
-	<div class="container mx-auto md:grid md:grid-cols-12 md:gap-12">
-		<h2 class="text-lg uppercase md:col-span-12 lg:col-span-3 lg:text-2xl lg--border--right">Our team</h2>
-		<div class="relative px-12 py-8 md:py-0 md:px-2 md:col-span-6 lg:col-span-3 lg:col-start-5">
-			<img src="/img/brent.jpg" alt="Brent Santha" loading="lazy" height="800" width="800" class="rounded-full bordered-img border-grey-300">
-			<div class="mt-4 link-w-arrow">
-				<h3 class="text-base lg:text-xl"><a href="/about#brent" class="link-expand text-grey-900">Brent Santha</a></h3>
-				<div>CPA, CA</div>
+	</section>
+	<section class="px-6 py-24">
+		<div class="container mx-auto md:grid md:grid-cols-12 md:gap-12">
+			<h2 class="text-lg uppercase md:col-span-12 lg:col-span-3 lg:text-2xl lg--border--right">Our team</h2>
+			<div class="relative px-12 py-8 md:py-0 md:px-2 md:col-span-6 lg:col-span-3 lg:col-start-5">
+				<img src="/img/brent.jpg" alt="Brent Santha" loading="lazy" height="800" width="800" class="rounded-full bordered-img border-grey-300">
+				<div class="mt-4 link-w-arrow">
+					<h3 class="text-sm lg:text-lg"><a href="/about#brent" class="link-expand text-grey-900">Brent Santha</a></h3>
+					<div>CPA, CA</div>
+				</div>
+			</div>
+			<div class="relative px-12 py-8 md:py-0 md:px-2 md:col-span-6 lg:col-span-3 lg:col-start-9">
+				<img src="/img/leanne.jpg" alt="Leanne Santha" loading="lazy" height="800" width="800" class="rounded-full bordered-img border-grey-300">
+				<div class="mt-4 link-w-arrow">
+					<h3 class="text-sm lg:text-lg"><a href="/about#leanne" class="link-expand text-grey-900">Leanne Santha</a></h3>
+					<div>CPA, CA</div>
+				</div>
 			</div>
 		</div>
-		<div class="relative px-12 py-8 md:py-0 md:px-2 md:col-span-6 lg:col-span-3 lg:col-start-9">
-			<img src="/img/leanne.jpg" alt="Leanne Santha" loading="lazy" height="800" width="800" class="rounded-full bordered-img border-grey-300">
-			<div class="mt-4 link-w-arrow">
-				<h3 class="text-base lg:text-xl"><a href="/about#leanne" class="link-expand text-grey-900">Leanne Santha</a></h3>
-				<div>CPA, CA</div>
-			</div>
-		</div>
-	</div>
-</section>
-		</main>
-		<section class="px-6 py-16 font-sans bg-primary">
-	<form name="contact" netlify class="max-w-2xl mx-auto text-white">
-		<h2 class="text-lg uppercase lg:text-2xl">Contact us</h2>
-		<label class="block pt-4 lg:flex lg:items-center">
-			<span class="block lg:w-1/6 lg:pr-12">Name</span>
-			<input type="text" name="name" class="w-full rounded-none border-primary focus:border-primary-dark focus:ring focus:ring-border-primary-light focus:ring-opacity-25 lg:w-5/6 text-black" placeholder="Jane Doe">
-		</label>
-		<label class="block pt-4 lg:flex lg:items-center">
-			<span class="block lg:w-1/6 lg:pr-12">Email</span>
-			<input type="text" name="email" class="w-full rounded-none border-primary focus:border-primary-dark focus:ring focus:ring-border-primary-light focus:ring-opacity-25 lg:w-5/6 text-black" placeholder="jane.doe@mail.com">
-		</label>
-		<p class="mt-6 text-right">
-			<button type="submit" class="px-6 py-2 text-sm leading-none text-white uppercase bg-transparent border-2 border-white rounded-2xl hover:bg-primary-dark">Submit</button>
+	</section>
+</main>
+<section class="px-6 py-16 bg-primary">
+	<div class="container mx-auto text-white">
+		<h2 class="text-lg text-white uppercase lg:text-2xl">We'd Love to Hear from You</h2>
+		<p class="mt-6 ">
+			For more information on our services or to book an appointment please contact us at:
 		</p>
-	</form>
+		<p class="mt-6 font-sans">Contact info: <a href="tel:6045555555" class="pr-2 text-white hover:text-primary-light">604.555.5555</a> | <a href="mailto:info@santhaaccounting.com&subject=Website%20Inquiry" class="pl-2 text-white hover:text-primary-light">info@santhaaccounting.com</a></p>
+	</div>
 </section>
 <footer class="px-6 py-12 font-sans text-center text-white uppercase bg-grey-700">
 	<div class="container mx-auto">
-		<p>Contact info: <a href="tel:6045555555" class="pr-2 text-white hover:text-primary-light">604.555.5555</a> | <a href="mailto:info@santhaaccounting.com" class="pl-2 text-white hover:text-primary-light">info@santhaaccounting.com</a></p>
+
 	</div>
 </footer>
-		<sidebar>
+<sidebar>
   <p class="text-right"><Burger classes="mb-6 text-center border border-translucent text-white h-12 w-12"></Burger></p>
   <nav class="">
-    <ul class="font-sans text-lg uppercase lg:text-2xl">
-      <li><a href="/" class="py-3 text-white hover:text-primary-light">Home</a></li>
-      <li><a href="/services/" class="py-3 text-white hover:text-primary-light">Services</a></li>
-      <li><a href="/about/" class="py-3 text-white hover:text-primary-light">About</a></li>
+    <ul class="font-sans text-lg text-center uppercase lg:text-2xl">
+      <li><a href="/" class="block py-3 font-bold text-white hover:text-primary-light">Home</a></li>
+      <li><a href="/services" class="block py-3 text-white hover:text-primary-light">Services</a></li>
+      <li><a href="/about" class="block py-3 text-white hover:text-primary-light">About</a></li>
     </ul>
   </nav>
 </sidebar>
@@ -146,7 +139,7 @@ alt="" loading="lazy" height="1333" width="2000">
 		<path stroke="currentColor" stroke-miterlimit="10" stroke-width=".5" d="M0 30.509h243.349"></path>
 	</symbol>
 </svg>
-	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<script src="https://unpkg.com/vue"></script>
 <script>
 Vue.config.productionTip = false;
 
