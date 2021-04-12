@@ -2216,11 +2216,11 @@ input {
 		padding-right: 4rem;
 	}
 
-	.md\:px-24 {
+	.md\:px-32 {
 
-		padding-left: 6rem;
+		padding-left: 8rem;
 
-		padding-right: 6rem;
+		padding-right: 8rem;
 	}
 
 	.md\:py-0 {
